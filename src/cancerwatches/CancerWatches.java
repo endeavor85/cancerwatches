@@ -21,6 +21,7 @@ import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 import javax.swing.WindowConstants;
 
+@SuppressWarnings("serial")
 public class CancerWatches
 {
 	public static void main(String args[])
@@ -68,6 +69,7 @@ public class CancerWatches
 	}
 }
 
+@SuppressWarnings("serial")
 class ImagePanel extends JPanel
 {
 	private Image	bg;
